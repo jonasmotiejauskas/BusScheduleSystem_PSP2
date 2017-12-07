@@ -8,5 +8,6 @@ namespace AbstractSchedule
 {
     public class Class1
     {
+
     }
 }
