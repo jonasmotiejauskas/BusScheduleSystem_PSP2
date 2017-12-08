@@ -1,11 +1,10 @@
 ﻿using System;
 using System.Collections.Generic;
 using AbstractSchedule.Entities;
-
 namespace AbstractSchedule.Facade
 {
-    interface IEntityRetriever
+    interface IScheduleAnalizer
     {
-        BusStop getBusStop(int _stopId);
+        List<Bus> getBusList(int _stopID, TimeSpan _curTime);
     }
 }
