@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using AbstractSchedule.Entities;
 
-namespace Repositors.AbstractInterface
+namespace AbstractRepositor.AbstractInterface
 {
     public interface IEntityRepositor
     {

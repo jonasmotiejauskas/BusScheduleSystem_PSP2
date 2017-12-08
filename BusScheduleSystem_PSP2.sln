@@ -5,9 +5,9 @@ VisualStudioVersion = 15.0.27004.2002
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ScheduleManagement", "ScheduleManagement", "{365DAAD8-F560-426A-A9E8-67C9418F6C35}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Controllers", "Controllers\Controllers.csproj", "{C1B7B7B6-F75E-4FC7-A076-ABBE75881F1A}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AbstractController", "Controllers\AbstractController.csproj", "{C1B7B7B6-F75E-4FC7-A076-ABBE75881F1A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Repositors", "Repositors\Repositors.csproj", "{69EE5DDA-60DC-43CD-A97B-5F7D65C0CF0B}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AbstractRepositor", "Repositors\AbstractRepositor.csproj", "{69EE5DDA-60DC-43CD-A97B-5F7D65C0CF0B}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AbstractSchedule", "AbstractSchedule\AbstractSchedule.csproj", "{9B9676D8-CE25-401D-9DB1-BE9E0CC0ADC3}"
 EndProject
@@ -15,7 +15,13 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PublicTransportSchedule", "
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Main", "Main\Main.csproj", "{C657357B-12B1-4642-82B7-79800F9F668B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Integrators", "Integrators\Integrators.csproj", "{AF7D7304-3547-4A99-9592-E28959F642B2}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AbstractIntegrator", "Integrators\AbstractIntegrator.csproj", "{AF7D7304-3547-4A99-9592-E28959F642B2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ProgramControllers", "ProgramControllers", "{C26CE351-71D4-4931-AD98-7B2B3852209E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ProgramIngetrators", "ProgramIngetrators", "{01FDFF1F-58FB-4155-AF36-5F299E8ED117}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ProgramRepositors", "ProgramRepositors", "{ADB8523D-1F7C-4276-BDC7-7720F7F03228}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -52,8 +58,11 @@ Global
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
+		{C1B7B7B6-F75E-4FC7-A076-ABBE75881F1A} = {C26CE351-71D4-4931-AD98-7B2B3852209E}
+		{69EE5DDA-60DC-43CD-A97B-5F7D65C0CF0B} = {ADB8523D-1F7C-4276-BDC7-7720F7F03228}
 		{9B9676D8-CE25-401D-9DB1-BE9E0CC0ADC3} = {365DAAD8-F560-426A-A9E8-67C9418F6C35}
 		{B6D7457E-33F5-48D6-B7A2-9499B582E70D} = {365DAAD8-F560-426A-A9E8-67C9418F6C35}
+		{AF7D7304-3547-4A99-9592-E28959F642B2} = {01FDFF1F-58FB-4155-AF36-5F299E8ED117}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {A3959F64-905F-4748-91E3-0F868B5FE190}
