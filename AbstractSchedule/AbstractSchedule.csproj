@@ -47,6 +47,7 @@
     <Compile Include="Entities\BusStop.cs" />
     <Compile Include="Facade\IEntityDepositor.cs" />
     <Compile Include="Facade\IEntityRetriever.cs" />
+    <Compile Include="Facade\IScheduleAnalizer.cs" />
     <Compile Include="Facade\IScheduleUpdater.cs" />
     <Compile Include="Factories\IBusStopFactory.cs" />
     <Compile Include="Factories\IRouteFactory.cs" />
