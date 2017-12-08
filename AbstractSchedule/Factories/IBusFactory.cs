@@ -3,9 +3,8 @@ using AbstractSchedule.Entities;
 
 namespace AbstractSchedule.Services
 {
-    public interface Scheduler
+    interface IBusFactory
     {
-        void UpdateSchedule(Schedule _targetSchedule);
-
+        Bus CreateBus(string _regNum, string _busNum, int _seatCount);
     }
 }

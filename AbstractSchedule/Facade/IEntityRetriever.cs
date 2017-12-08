@@ -4,10 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace AbstractSchedule
+namespace AbstractSchedule.Facade
 {
-    public class Class1
+    interface IEntityRetriever
     {
-
     }
 }

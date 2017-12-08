@@ -4,8 +4,8 @@ using System.Collections.Generic;
 
 namespace AbstractSchedule.Services
 {
-    public interface ScheduleFactory
+    interface IRouteFactory
     {
-        Schedule createSchedule(List<Tuple<BusStop, TimeSpan>> _regular, Bus _schedBus);
+        Route CreateRoute(List<Tuple<BusStop, TimeSpan>> _route);
     }
 }

@@ -3,7 +3,7 @@ using System;
 
 namespace AbstractSchedule.Services
 {
-    public interface BusManager
+    public interface IBusManager
     {
         BusStop FindNearestStop(Bus _bus);
         void UpdateArrivalTime(Bus _bus, TimeSpan _arrivalTime);

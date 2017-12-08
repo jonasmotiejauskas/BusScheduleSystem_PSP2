@@ -40,15 +40,21 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Class1.cs" />
+    <Compile Include="Facade\IBusValidator.cs" />
     <Compile Include="Entities\Bus.cs" />
+    <Compile Include="Entities\Route.cs" />
     <Compile Include="Entities\Schedule.cs" />
     <Compile Include="Entities\BusStop.cs" />
+    <Compile Include="Facade\IEntityDepositor.cs" />
+    <Compile Include="Facade\IEntityRetriever.cs" />
+    <Compile Include="Facade\IScheduleUpdater.cs" />
+    <Compile Include="Factories\IBusStopFactory.cs" />
+    <Compile Include="Factories\IRouteFactory.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Services\BusFactory.cs" />
-    <Compile Include="Services\BusManager.cs" />
-    <Compile Include="Services\ScheduleFactory.cs" />
-    <Compile Include="Services\Scheduler.cs" />
+    <Compile Include="Factories\IBusFactory.cs" />
+    <Compile Include="Services\IBusManager.cs" />
+    <Compile Include="Factories\IScheduleFactory.cs" />
+    <Compile Include="Services\IScheduler.cs" />
   </ItemGroup>
   <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
