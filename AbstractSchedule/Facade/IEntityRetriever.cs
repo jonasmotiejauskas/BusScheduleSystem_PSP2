@@ -8,5 +8,6 @@ namespace AbstractSchedule.Facade
 {
     interface IEntityRetriever
     {
+
     }
 }

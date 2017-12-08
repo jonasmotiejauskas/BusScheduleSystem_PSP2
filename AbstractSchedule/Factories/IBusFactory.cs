@@ -5,6 +5,6 @@ namespace AbstractSchedule.Services
 {
     interface IBusFactory
     {
-        Bus CreateBus(string _regNum, string _busNum, int _seatCount);
+        Bus CreateBus(string _regNum, string _busNum);
     }
 }

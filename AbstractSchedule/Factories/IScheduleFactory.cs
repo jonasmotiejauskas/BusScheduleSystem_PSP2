@@ -6,6 +6,6 @@ namespace AbstractSchedule.Services
 {
     public interface IScheduleFactory
     {
-        Schedule CreateSchedule(List<Tuple<BusStop, TimeSpan>> _regular, Bus _schedBus);
+        Schedule CreateSchedule(Route _regular, Bus _schedBus);
     }
 }
