@@ -1,13 +1,11 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using AbstractSchedule.Entities;
 
-namespace AbstractSchedule
+namespace AbstractSchedule.Facade
 {
     public interface IBusValidator
     {
-
+        bool ValidateBus(Bus _bus);
     }
 }
