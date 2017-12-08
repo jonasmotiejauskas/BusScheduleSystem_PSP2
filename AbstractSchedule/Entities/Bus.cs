@@ -2,7 +2,7 @@
 
 namespace AbstractSchedule.Entities
 {
-    public abstract class Bus
+    public abstract class Bus : Entity
     {
         public abstract int RegistrationNumber { get; set; }
         public abstract int NumberOfSeats { get; set; }

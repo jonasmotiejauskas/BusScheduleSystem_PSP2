@@ -2,7 +2,7 @@
 
 namespace AbstractSchedule.Entities
 {
-    public abstract class Schedule
+    public abstract class Schedule : Entity
     {
         public abstract Route RegularSchedule { get; set; }
         public abstract DateTime ScheduleDate { get; set; }

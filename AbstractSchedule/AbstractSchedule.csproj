@@ -40,6 +40,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Entities\Entity.cs" />
     <Compile Include="Facade\IBusValidator.cs" />
     <Compile Include="Entities\Bus.cs" />
     <Compile Include="Entities\Route.cs" />
@@ -57,6 +58,5 @@
     <Compile Include="Factories\IScheduleFactory.cs" />
     <Compile Include="Services\IScheduler.cs" />
   </ItemGroup>
-  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

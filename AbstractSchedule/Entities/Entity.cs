@@ -4,9 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Repositors
+namespace AbstractSchedule.Entities
 {
-    public class Class1
+    [Serializable]
+    public abstract class Entity
     {
     }
 }
