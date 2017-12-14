@@ -1,6 +1,7 @@
 ﻿using System;
+using AbstractSchedule.Entities.Routes;
 
-namespace AbstractSchedule.Entities
+namespace AbstractSchedule.Entities.Schedules
 {
     public abstract class Schedule : Entity
     {

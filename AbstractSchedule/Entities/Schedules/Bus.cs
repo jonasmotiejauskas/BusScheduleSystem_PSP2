@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace AbstractSchedule.Entities
+namespace AbstractSchedule.Entities.Schedules
 {
     public abstract class Bus : Entity
     {

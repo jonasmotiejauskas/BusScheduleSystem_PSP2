@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace AbstractSchedule.Entities
+namespace AbstractSchedule.Entities.Routes
 {
     public abstract class Route : Entity
     {

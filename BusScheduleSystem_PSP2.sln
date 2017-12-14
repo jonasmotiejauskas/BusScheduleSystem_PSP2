@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27004.2002
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ScheduleManagement", "ScheduleManagement", "{365DAAD8-F560-426A-A9E8-67C9418F6C35}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ScheduleManagement(Domain)", "ScheduleManagement(Domain)", "{365DAAD8-F560-426A-A9E8-67C9418F6C35}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AbstractController", "Controllers\AbstractController.csproj", "{C1B7B7B6-F75E-4FC7-A076-ABBE75881F1A}"
 EndProject
@@ -13,8 +13,6 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AbstractSchedule", "Abstrac
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PublicTransportSchedule", "PublicTransportSchedule\PublicTransportSchedule.csproj", "{B6D7457E-33F5-48D6-B7A2-9499B582E70D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Main", "Main\Main.csproj", "{C657357B-12B1-4642-82B7-79800F9F668B}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AbstractIntegrator", "Integrators\AbstractIntegrator.csproj", "{AF7D7304-3547-4A99-9592-E28959F642B2}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ProgramControllers", "ProgramControllers", "{C26CE351-71D4-4931-AD98-7B2B3852209E}"
@@ -22,6 +20,10 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ProgramIngetrators", "ProgramIngetrators", "{01FDFF1F-58FB-4155-AF36-5F299E8ED117}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ProgramRepositors", "ProgramRepositors", "{ADB8523D-1F7C-4276-BDC7-7720F7F03228}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MockSchedule", "MockSchedule\MockSchedule.csproj", "{F5178797-25A4-41DB-B122-233ADB1EF6C1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Main", "ConsoleApp1\Main.csproj", "{9600587E-4E8E-4F34-B9A3-77C130969499}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,14 +47,18 @@ Global
 		{B6D7457E-33F5-48D6-B7A2-9499B582E70D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B6D7457E-33F5-48D6-B7A2-9499B582E70D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B6D7457E-33F5-48D6-B7A2-9499B582E70D}.Release|Any CPU.Build.0 = Release|Any CPU
-		{C657357B-12B1-4642-82B7-79800F9F668B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{C657357B-12B1-4642-82B7-79800F9F668B}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{C657357B-12B1-4642-82B7-79800F9F668B}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{C657357B-12B1-4642-82B7-79800F9F668B}.Release|Any CPU.Build.0 = Release|Any CPU
 		{AF7D7304-3547-4A99-9592-E28959F642B2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{AF7D7304-3547-4A99-9592-E28959F642B2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AF7D7304-3547-4A99-9592-E28959F642B2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AF7D7304-3547-4A99-9592-E28959F642B2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F5178797-25A4-41DB-B122-233ADB1EF6C1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F5178797-25A4-41DB-B122-233ADB1EF6C1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F5178797-25A4-41DB-B122-233ADB1EF6C1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F5178797-25A4-41DB-B122-233ADB1EF6C1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9600587E-4E8E-4F34-B9A3-77C130969499}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9600587E-4E8E-4F34-B9A3-77C130969499}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9600587E-4E8E-4F34-B9A3-77C130969499}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9600587E-4E8E-4F34-B9A3-77C130969499}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -63,6 +69,7 @@ Global
 		{9B9676D8-CE25-401D-9DB1-BE9E0CC0ADC3} = {365DAAD8-F560-426A-A9E8-67C9418F6C35}
 		{B6D7457E-33F5-48D6-B7A2-9499B582E70D} = {365DAAD8-F560-426A-A9E8-67C9418F6C35}
 		{AF7D7304-3547-4A99-9592-E28959F642B2} = {01FDFF1F-58FB-4155-AF36-5F299E8ED117}
+		{F5178797-25A4-41DB-B122-233ADB1EF6C1} = {365DAAD8-F560-426A-A9E8-67C9418F6C35}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {A3959F64-905F-4748-91E3-0F868B5FE190}

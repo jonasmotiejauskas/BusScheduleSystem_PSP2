@@ -1,5 +1,6 @@
 ﻿using System;
-using AbstractSchedule.Entities;
+using AbstractSchedule.Entities.Routes;
+using AbstractSchedule.Entities.Schedules;
 
 namespace AbstractSchedule.Facade
 {

@@ -1,6 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
-using AbstractSchedule.Entities;
+using AbstractSchedule.Entities.Schedules;
 
 namespace AbstractSchedule.Facade
 {
